@@ -1,0 +1,366 @@
+[
+  {
+    "description": "    As a User\n    I want to Update Riwayat Pendidikan",
+    "elements": [
+      {
+        "id": "update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-gagal-fitur-\"riwayat-pendidikan\"-sebagai-new-user",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Validasi gagal fitur \"Riwayat Pendidikan\" sebagai new user",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user masuk ke halaman login 2",
+            "result": {
+              "status": "passed",
+              "duration": 926400
+            },
+            "line": 8,
+            "match": {
+              "location": "SQA\\project3\\rp-testing\\step-definitions\\failed-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user masukan email 2",
+            "result": {
+              "status": "passed",
+              "duration": 246500
+            },
+            "line": 9,
+            "match": {
+              "location": "SQA\\project3\\rp-testing\\step-definitions\\failed-steps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user masukan password 2",
+            "result": {
+              "status": "passed",
+              "duration": 234700
+            },
+            "line": 10,
+            "match": {
+              "location": "SQA\\project3\\rp-testing\\step-definitions\\failed-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user Klik button login 2",
+            "result": {
+              "status": "passed",
+              "duration": 391300
+            },
+            "line": 11,
+            "match": {
+              "location": "SQA\\project3\\rp-testing\\step-definitions\\failed-steps.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "klik profile 2",
+            "result": {
+              "status": "passed",
+              "duration": 254600
+            },
+            "line": 12,
+            "match": {
+              "location": "SQA\\project3\\rp-testing\\step-definitions\\failed-steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Klik +Tambah pada bagian box Riwayat Pendidikan 2",
+            "result": {
+              "status": "passed",
+              "duration": 207300
+            },
+            "line": 13,
+            "match": {
+              "location": "SQA\\project3\\rp-testing\\step-definitions\\failed-steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Tidak Input Nama Sekolah",
+            "result": {
+              "status": "passed",
+              "duration": 167800
+            },
+            "line": 14,
+            "match": {
+              "location": "SQA\\project3\\rp-testing\\step-definitions\\failed-steps.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Tidak Input Jurusan",
+            "result": {
+              "status": "passed",
+              "duration": 236400
+            },
+            "line": 15,
+            "match": {
+              "location": "SQA\\project3\\rp-testing\\step-definitions\\failed-steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Tidak Pilih Tahun Masuk",
+            "result": {
+              "status": "passed",
+              "duration": 191700
+            },
+            "line": 16,
+            "match": {
+              "location": "SQA\\project3\\rp-testing\\step-definitions\\failed-steps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "Tidak Pilih Tahun Lulus",
+            "result": {
+              "status": "passed",
+              "duration": 304900
+            },
+            "line": 17,
+            "match": {
+              "location": "SQA\\project3\\rp-testing\\step-definitions\\failed-steps.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Klik button Preview & Simpan 2",
+            "result": {
+              "status": "passed",
+              "duration": 148000
+            },
+            "line": 18,
+            "match": {
+              "location": "SQA\\project3\\rp-testing\\step-definitions\\failed-steps.js:61"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 10557286200,
+              "error_message": "WebDriverError: unknown error: unhandled inspector error: {\"code\":-32000,\"message\":\"No target with given id\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.19041 x86_64)\n    at Object.checkLegacyResponse (E:\\Kuliah\\DTI SQA\\project3\\rp-testing\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (E:\\Kuliah\\DTI SQA\\project3\\rp-testing\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at E:\\Kuliah\\DTI SQA\\project3\\rp-testing\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.manage().window().maximize()\n    at thenableWebDriverProxy.schedule (E:\\Kuliah\\DTI SQA\\project3\\rp-testing\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Window.maximize (E:\\Kuliah\\DTI SQA\\project3\\rp-testing\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1691:25)\n    at new module.exports (E:\\Kuliah\\DTI SQA\\project3\\rp-testing\\node_modules\\selenium-cucumber-js\\runtime\\chromeDriver.js:22:30)\n    at getDriverInstance (E:\\Kuliah\\DTI SQA\\project3\\rp-testing\\node_modules\\selenium-cucumber-js\\runtime\\world.js:54:22)\n    at E:\\Kuliah\\DTI SQA\\project3\\rp-testing\\node_modules\\selenium-cucumber-js\\runtime\\world.js:207:29\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+            },
+            "hidden": true,
+            "match": {
+              "location": "SQA\\project3\\rp-testing\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@failed",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "update-profile-riwayat-pendidikan-di-web-arkdemy",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Update Profile Riwayat Pendidikan di web Arkdemy",
+    "tags": [],
+    "uri": "E:/Kuliah/DTI SQA/project3/rp-testing/features/failed.feature"
+  },
+  {
+    "description": "    As a User\n    I want to Update Riwayat Pendidikan",
+    "elements": [
+      {
+        "id": "update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-fitur-\"riwayat-pendidikan\"-sebagai-new-user",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Validasi fitur \"Riwayat Pendidikan\" sebagai new user",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user masuk ke halaman login",
+            "result": {
+              "status": "passed",
+              "duration": 240500
+            },
+            "line": 9,
+            "match": {
+              "location": "SQA\\project3\\rp-testing\\step-definitions\\rp-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user masukan email",
+            "result": {
+              "status": "passed",
+              "duration": 111300
+            },
+            "line": 10,
+            "match": {
+              "location": "SQA\\project3\\rp-testing\\step-definitions\\rp-steps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user masukan password",
+            "result": {
+              "status": "passed",
+              "duration": 104300
+            },
+            "line": 11,
+            "match": {
+              "location": "SQA\\project3\\rp-testing\\step-definitions\\rp-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user Klik button login",
+            "result": {
+              "status": "passed",
+              "duration": 106400
+            },
+            "line": 12,
+            "match": {
+              "location": "SQA\\project3\\rp-testing\\step-definitions\\rp-steps.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "klik profile",
+            "result": {
+              "status": "passed",
+              "duration": 127600
+            },
+            "line": 13,
+            "match": {
+              "location": "SQA\\project3\\rp-testing\\step-definitions\\rp-steps.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Klik +Tambah pada bagian box Riwayat Pendidikan",
+            "result": {
+              "status": "passed",
+              "duration": 112400
+            },
+            "line": 14,
+            "match": {
+              "location": "SQA\\project3\\rp-testing\\step-definitions\\rp-steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Input Nama Sekolah",
+            "result": {
+              "status": "passed",
+              "duration": 125700
+            },
+            "line": 15,
+            "match": {
+              "location": "SQA\\project3\\rp-testing\\step-definitions\\rp-steps.js:38"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Input Jurusan",
+            "result": {
+              "status": "passed",
+              "duration": 104100
+            },
+            "line": 16,
+            "match": {
+              "location": "SQA\\project3\\rp-testing\\step-definitions\\rp-steps.js:44"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Pilih Tahun Masuk",
+            "result": {
+              "status": "passed",
+              "duration": 102700
+            },
+            "line": 17,
+            "match": {
+              "location": "SQA\\project3\\rp-testing\\step-definitions\\rp-steps.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "Pilih Tahun Lulus",
+            "result": {
+              "status": "passed",
+              "duration": 98600
+            },
+            "line": 18,
+            "match": {
+              "location": "SQA\\project3\\rp-testing\\step-definitions\\rp-steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Klik button Preview & Simpan",
+            "result": {
+              "status": "passed",
+              "duration": 179000
+            },
+            "line": 19,
+            "match": {
+              "location": "SQA\\project3\\rp-testing\\step-definitions\\rp-steps.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 35993962900,
+              "error_message": "WebDriverError: chrome not reachable\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.19041 x86_64)\n    at Object.checkLegacyResponse (E:\\Kuliah\\DTI SQA\\project3\\rp-testing\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (E:\\Kuliah\\DTI SQA\\project3\\rp-testing\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at E:\\Kuliah\\DTI SQA\\project3\\rp-testing\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\nFrom: Task: WebDriver.navigate().to(https://sso.arkademy.com/auth/realms/production/protocol/openid-connect/auth?client_id=arkademy-production-client&scope=openid%20email&response_type=code&redirect_uri=https%3A%2F%2Fservices.arkademy.com%2Fauth%2Flogin%2Fverify%3Ftoken%3D93329c714eca5c45c41320358bc2ed7d&nonce=06b40e9b-ed7e-4c63-9083-d892ddc7964a&client_name=arkademy-prod)\n    at thenableWebDriverProxy.schedule (E:\\Kuliah\\DTI SQA\\project3\\rp-testing\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at Navigation.to (E:\\Kuliah\\DTI SQA\\project3\\rp-testing\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1131:25)\n    at thenableWebDriverProxy.get (E:\\Kuliah\\DTI SQA\\project3\\rp-testing\\node_modules\\selenium-webdriver\\lib\\webdriver.js:988:28)\n    at Object.loadPage (E:\\Kuliah\\DTI SQA\\project3\\rp-testing\\node_modules\\selenium-cucumber-js\\runtime\\helpers.js:17:23)\n    at createWorld.<anonymous> (E:\\Kuliah\\DTI SQA\\project3\\rp-testing\\step-definitions\\rp-steps.js:4:17)"
+            },
+            "hidden": true,
+            "match": {
+              "location": "SQA\\project3\\rp-testing\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@success",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "update-profile-riwayat-pendidikan-di-web-arkdemy",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Update Profile Riwayat Pendidikan di web Arkdemy",
+    "tags": [],
+    "uri": "E:/Kuliah/DTI SQA/project3/rp-testing/features/rp.feature"
+  }
+]

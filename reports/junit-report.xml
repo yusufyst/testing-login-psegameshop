@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-gagal-fitur-&quot;riwayat-pendidikan&quot;-sebagai-new-user" tests="11" failures="0" skipped="0">
+        <properties>
+            <property name="@failed" value="true">
+            </property>
+            <property name="URI" value="E:/Kuliah/DTI SQA/project3/rp-testing/features/failed.feature">
+            </property>
+        </properties>
+        <testcase name="Given user masuk ke halaman login 2" classname="update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-gagal-fitur-&quot;riwayat-pendidikan&quot;-sebagai-new-user" time="0.0009264">
+        </testcase>
+        <testcase name="And user masukan email 2" classname="update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-gagal-fitur-&quot;riwayat-pendidikan&quot;-sebagai-new-user" time="0.0002465">
+        </testcase>
+        <testcase name="And user masukan password 2" classname="update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-gagal-fitur-&quot;riwayat-pendidikan&quot;-sebagai-new-user" time="0.0002347">
+        </testcase>
+        <testcase name="And user Klik button login 2" classname="update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-gagal-fitur-&quot;riwayat-pendidikan&quot;-sebagai-new-user" time="0.0003913">
+        </testcase>
+        <testcase name="And klik profile 2" classname="update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-gagal-fitur-&quot;riwayat-pendidikan&quot;-sebagai-new-user" time="0.0002546">
+        </testcase>
+        <testcase name="And Klik +Tambah pada bagian box Riwayat Pendidikan 2" classname="update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-gagal-fitur-&quot;riwayat-pendidikan&quot;-sebagai-new-user" time="0.0002073">
+        </testcase>
+        <testcase name="And Tidak Input Nama Sekolah" classname="update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-gagal-fitur-&quot;riwayat-pendidikan&quot;-sebagai-new-user" time="0.0001678">
+        </testcase>
+        <testcase name="And Tidak Input Jurusan" classname="update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-gagal-fitur-&quot;riwayat-pendidikan&quot;-sebagai-new-user" time="0.0002364">
+        </testcase>
+        <testcase name="And Tidak Pilih Tahun Masuk" classname="update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-gagal-fitur-&quot;riwayat-pendidikan&quot;-sebagai-new-user" time="0.0001917">
+        </testcase>
+        <testcase name="When Tidak Pilih Tahun Lulus" classname="update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-gagal-fitur-&quot;riwayat-pendidikan&quot;-sebagai-new-user" time="0.0003049">
+        </testcase>
+        <testcase name="Then Klik button Preview &amp; Simpan 2" classname="update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-gagal-fitur-&quot;riwayat-pendidikan&quot;-sebagai-new-user" time="0.000148">
+        </testcase>
+    </testsuite>
+    <testsuite name="update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-fitur-&quot;riwayat-pendidikan&quot;-sebagai-new-user" tests="11" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="E:/Kuliah/DTI SQA/project3/rp-testing/features/rp.feature">
+            </property>
+        </properties>
+        <testcase name="Given user masuk ke halaman login" classname="update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-fitur-&quot;riwayat-pendidikan&quot;-sebagai-new-user" time="0.0002405">
+        </testcase>
+        <testcase name="And user masukan email" classname="update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-fitur-&quot;riwayat-pendidikan&quot;-sebagai-new-user" time="0.0001113">
+        </testcase>
+        <testcase name="And user masukan password" classname="update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-fitur-&quot;riwayat-pendidikan&quot;-sebagai-new-user" time="0.0001043">
+        </testcase>
+        <testcase name="And user Klik button login" classname="update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-fitur-&quot;riwayat-pendidikan&quot;-sebagai-new-user" time="0.0001064">
+        </testcase>
+        <testcase name="And klik profile" classname="update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-fitur-&quot;riwayat-pendidikan&quot;-sebagai-new-user" time="0.0001276">
+        </testcase>
+        <testcase name="And Klik +Tambah pada bagian box Riwayat Pendidikan" classname="update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-fitur-&quot;riwayat-pendidikan&quot;-sebagai-new-user" time="0.0001124">
+        </testcase>
+        <testcase name="And Input Nama Sekolah" classname="update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-fitur-&quot;riwayat-pendidikan&quot;-sebagai-new-user" time="0.0001257">
+        </testcase>
+        <testcase name="And Input Jurusan" classname="update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-fitur-&quot;riwayat-pendidikan&quot;-sebagai-new-user" time="0.0001041">
+        </testcase>
+        <testcase name="And Pilih Tahun Masuk" classname="update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-fitur-&quot;riwayat-pendidikan&quot;-sebagai-new-user" time="0.0001027">
+        </testcase>
+        <testcase name="When Pilih Tahun Lulus" classname="update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-fitur-&quot;riwayat-pendidikan&quot;-sebagai-new-user" time="0.0000986">
+        </testcase>
+        <testcase name="Then Klik button Preview &amp; Simpan" classname="update-profile-riwayat-pendidikan-di-web-arkdemy;validasi-fitur-&quot;riwayat-pendidikan&quot;-sebagai-new-user" time="0.000179">
+        </testcase>
+    </testsuite>
+</testsuites>
